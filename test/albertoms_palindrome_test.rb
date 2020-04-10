@@ -16,4 +16,8 @@ class AlbertomsPalindromeTest < Minitest::Test
   def test_palindrome_with_punctuation
     assert "Anita lava la tina".palindrome?
   end
+
+  def test_integer_non_palindrome?
+    refute 12345.palindrome?
+  end
 end
