@@ -24,4 +24,9 @@ class AlbertomsPalindromeTest < Minitest::Test
   def test_integer_palindrome
     assert 12321.palindrome?
   end
+
+  def test_empty_content_non_palindrome
+    refute "".palindrome?
+    refute "   ".palindrome?
+  end
 end
