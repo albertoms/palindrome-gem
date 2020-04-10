@@ -20,7 +20,17 @@ Or install it yourself as:
 
 ## Usage
 
->`TODO`: Write usage instructions here
+This gem extends the functionality of the `String` and `Integer` classes. In order to detect if a phrase or a number is a palindrome, just call the `palindrome?` method on it:
+
+```
+# For strings
+>> "Anita lava la tina".palindrome?
+>> true
+
+# For numbers
+>> 12321.palindrome?
+>> true
+```
 
 ## Development
 
