@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    albertoms_palindrome (0.2.0)
+    albertoms_palindrome (0.3.2)
 
 GEM
   remote: https://rubygems.org/
